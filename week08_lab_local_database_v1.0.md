@@ -262,9 +262,13 @@ dart run build_runner build --delete-conflicting-outputs
 
 capture หน้าจอผลลัพธ์คำสั่ง `dart run build_runner build` จากขั้นตอนที่ 3.2 ที่แสดงว่าสร้างไฟล์สำเร็จ (ไม่มี Error เรื่อง Class ชื่อซ้ำ) จากนั้นเปิดไฟล์ main.dart ที่แก้ตามขั้นตอนที่ 3.3 โดย ยังไม่ต้องรันแอปในจุดนี้ เพราะ VS Code จะขีดเส้นสีแดงใต้ FavoritesRepositoryDrift และ ListingDraftRepositoryDrift (ยังไม่มี Class จริง จะเขียน Class นี้ในส่วนที่ 4-5) และถ้าสั่งรันตอนนี้แอปจะ Error ทันทีเพราะคอมไพล์ไม่ผ่าน ถือเป็นเรื่องปกติ — จะกลับมารันแอปได้จริงอีกครั้งหลังทำ Checkpoint 4.1 และ 5.1 เสร็จ
 
-```text
+``text
 บันทึกผลลัพธ์ที่นี่
-```
+<img width="1072" height="312" alt="image" src="https://github.com/user-attachments/assets/3b42706a-8e36-48be-8f09-3b391528f231" />
+<img width="1323" height="776" alt="image" src="https://github.com/user-attachments/assets/8ca6714b-7336-4ba2-9036-4a98212584bc" />
+<img width="757" height="228" alt="image" src="https://github.com/user-attachments/assets/e5490dd6-86f4-4901-b0b4-c12ace324bc5" />
+
+`
 
 ---
 
