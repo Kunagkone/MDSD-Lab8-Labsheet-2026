@@ -396,6 +396,7 @@ items: const [
 ``text
 บันทึกผลลัพธ์ที่นี่
 <img width="1552" height="977" alt="image" src="https://github.com/user-attachments/assets/4548b0d2-16fb-4128-8708-e38b5cef38ec" />
+<img width="1278" height="960" alt="image" src="https://github.com/user-attachments/assets/8b21474c-b5c6-4e27-a211-83e556ebdbd6" />
 
 `
 
@@ -445,9 +446,16 @@ class SellItemPage extends StatefulWidget {
 
 > ✅ **Checkpoint 5.1** รันแอปแล้วทำตามลำดับนี้: 1. สร้างร่างประกาศใหม่ผ่าน Tab "ลงประกาศขาย" ด้วยความช่วยเหลือของ AI เหมือนสัปดาห์ที่ 7 2. กดยืนยันร่าง 3. กดปุ่มไอคอนเข้าหน้า "ร่างประกาศของฉัน" แล้วเห็นร่างที่เพิ่งสร้าง 4. ปิดแอปให้สนิทแล้วเปิดใหม่ กลับเข้าหน้า "ร่างประกาศของฉัน" อีกครั้ง ถ่ายภาพหน้าจอทั้ง 4 ขั้นตอนนี้แนบส่ง เพื่อพิสูจน์ว่าร่างไม่หายไปแม้ปิดแอปแล้ว 
 
-```text
+``text
 บันทึกผลลัพธ์ที่นี่
-```
+
+<img width="1188" height="915" alt="Screenshot 2026-10-12 095434" src="https://github.com/user-attachments/assets/d2409ba2-1c11-4338-9d43-4b45f594d300" />
+
+<img width="1146" height="970" alt="image" src="https://github.com/user-attachments/assets/0e0114ea-a82e-491d-be37-4534d3d16450" />
+<img width="1796" height="988" alt="image" src="https://github.com/user-attachments/assets/b216abf5-3d47-4e22-989c-2a3f795f7303" />
+
+ListingDraftRepositoryDrift เมื่อผู้ใช้กดบันทึกร่าง ข้อมูลจะถูกเขียนลงในตาราง ListingDrafts และเมื่อเปิดหน้าลงประกาศขาย คลาส SellItemPage จะเรียกฟังก์ชัน _loadSavedDraft() ใน initState()
+``
 
 ---
 
